@@ -1,0 +1,20 @@
+package com.atguigu.ums.service.impl;
+
+import com.atguigu.gmall.ums.entity.Role;
+import com.atguigu.gmall.ums.service.RoleService;
+import com.atguigu.ums.mapper.RoleMapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ * 后台用户角色表 服务实现类
+ * </p>
+ *
+ * @author datou
+ * @since 2019-12-24
+ */
+@Service
+public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements RoleService {
+
+}
